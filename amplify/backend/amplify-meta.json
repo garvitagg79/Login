@@ -1,0 +1,56 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-metalien-staging-73325-authRole",
+      "UnauthRoleArn": "arn:aws:iam::767314570271:role/amplify-metalien-staging-73325-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::767314570271:role/amplify-metalien-staging-73325-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-metalien-staging-73325-deployment",
+      "UnauthRoleName": "amplify-metalien-staging-73325-unauthRole",
+      "StackName": "amplify-metalien-staging-73325",
+      "StackId": "arn:aws:cloudformation:ap-south-1:767314570271:stack/amplify-metalien-staging-73325/e90994e0-066b-11ed-b8ef-02dd9aca73e4",
+      "AmplifyAppId": "d2gfspymatliaw"
+    }
+  },
+  "auth": {
+    "Metalien": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "EMAIL",
+          "NAME"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "output": {
+        "UserPoolId": "ap-south-1_AooiuG2Qe",
+        "AppClientIDWeb": "6nptroln1rqsrlvqrfl0cku5ee",
+        "AppClientID": "5162utinmt4oa19ls7mi3v7bk8",
+        "IdentityPoolId": "ap-south-1:c44245f5-32d0-4666-8a31-dc4bc043d00c",
+        "UserPoolArn": "arn:aws:cognito-idp:ap-south-1:767314570271:userpool/ap-south-1_AooiuG2Qe",
+        "IdentityPoolName": "testAuthIdentityPool__staging",
+        "UserPoolName": "Metalien"
+      },
+      "lastPushTimeStamp": "2022-07-18T07:58:08.268Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-metalien-staging-73325-deployment/amplify-cfn-templates/auth/Metalien-cloudformation-template.json",
+        "logicalId": "authMetalien"
+      }
+    }
+  }
+}

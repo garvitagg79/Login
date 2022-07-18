@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-metalien-staging-73325-authRole",
+      "UnauthRoleArn": "arn:aws:iam::767314570271:role/amplify-metalien-staging-73325-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::767314570271:role/amplify-metalien-staging-73325-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-metalien-staging-73325-deployment",
+      "UnauthRoleName": "amplify-metalien-staging-73325-unauthRole",
+      "StackName": "amplify-metalien-staging-73325",
+      "StackId": "arn:aws:cloudformation:ap-south-1:767314570271:stack/amplify-metalien-staging-73325/e90994e0-066b-11ed-b8ef-02dd9aca73e4",
+      "AmplifyAppId": "d2gfspymatliaw"
+    },
+    "categories": {
+      "auth": {
+        "Metalien": {}
+      }
+    }
+  }
+}
